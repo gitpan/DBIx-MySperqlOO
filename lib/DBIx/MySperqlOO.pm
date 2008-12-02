@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use DBI;
 
-use version; our $VERSION = qv('1.0.0');
+use version; our $VERSION = qv('1.0.1');
 
 {
 	my %dbh_of  : ATTR();
